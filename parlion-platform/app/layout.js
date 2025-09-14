@@ -1,7 +1,10 @@
 import './globals.css';
 import Script from 'next/script';
 
-export const metadata = { title: 'PARLION', description: 'The Ice Cream Master' };
+export const metadata = {
+  title: 'PARLION',
+  description: 'The Ice Cream Master',
+}
 
 export default function RootLayout({ children }) {
   return (
@@ -14,5 +17,5 @@ export default function RootLayout({ children }) {
         <Script src="/main1bce.js" strategy="afterInteractive" />
       </body>
     </html>
-  );
+  )
 }
