@@ -15,7 +15,7 @@ export default function HomePage() {
       </div>
       <div className="philosophy-section">
           <div className="philosophy-image"><div className="color-block color-summer"></div></div>
-          <div className="philosophy-text"><h2>Puurheid in Elke Hap</h2><p>Bij Parlion geloven we dat uitzonderlijke smaak begint bij de bron. We reizen de wereld rond op zoek naar de puurste ingrediënten. Elke creatie is een ode aan ambacht en kwaliteit.</p><a href="/ons-verhaal" className="cta-button">Ontdek Ons Verhaal</a></div>
+          <div className="philosophy-text"><h2>Puurheid in Elke Hap</h2><p>Bij Parlion geloven we dat uitzonderlijke smaak begint bij de bron. We reizen de wereld rond op zoek naar de puurste ingrediënten. Elke creatie is een ode aan ambacht en kwaliteit.</p><a href="/bestel" className="cta-button">Bestel Nu Online</a></div>
       </div>
       <div className="contact-section">
           <h2>Waar Vind Je Ons?</h2>
@@ -33,4 +33,5 @@ export default function HomePage() {
       </footer>
     </main>
   );
+
 }
